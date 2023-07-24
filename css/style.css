@@ -1,16 +1,18 @@
 /* header wrapper */
 .header-wrapper {
-    margin: 53px;
+    height: 65px;
+}
+.section1{
+    margin-top: 136px;
 }
 .header-conteiner {
     width: 1220px;
     height: 65px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 50;
-    position: sticky;
+    z-index: 100;
+    position: fixed;
     top: 53px;
-    /* background-color: aqua; */
+    left: 70px;
+    background-color: white;
     margin-bottom: 136px;
 }
 .logo {
@@ -34,7 +36,7 @@
     width: 184px;
     display: inline-block;
     background-color: #6B77E5;
-    margin-left: 40px;
+    margin-left: 45px;
     vertical-align: middle;
     
 }
@@ -207,6 +209,7 @@
     margin-bottom: 131px;
     width: 1220px;
     height: 659px;
+
     margin-left: auto;
     margin-right: auto;
 }
