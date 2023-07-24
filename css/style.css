@@ -1,0 +1,264 @@
+/* header wrapper */
+.header-wrapper {
+    margin: 53px;
+}
+.header-conteiner {
+    width: 1220px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 50;
+    position: sticky;
+    top: 53px;
+    /* background-color: aqua; */
+    margin-bottom: 136px;
+}
+.logo {
+    vertical-align: middle;
+}
+.div-nav {
+    display: inline-block;
+    margin-left: 195px;
+    vertical-align: middle;
+}
+.li-item {
+    font-family: 'Inter';
+    color: #37393F;
+    font-size: 18px;
+    line-height: 21.78px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.div-get-consalting {
+    height: 65px;
+    width: 184px;
+    display: inline-block;
+    background-color: #6B77E5;
+    margin-left: 40px;
+    vertical-align: middle;
+    
+}
+.get-consalting {
+    font-family: 'Cabin';
+    font-size: 18px;
+    line-height: 21.87px;
+    padding: 21px 35px 22px;
+    color: #FFFFFF;
+}
+/* body 1st section*/
+.section-block{
+    width: 1220px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.section1-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.title1 {
+    font-family: 'Inter';
+    color: #37393F;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.title2 {
+    font-family: 'Poppins';
+    color: #37393F;
+    font-size: 40px;
+    line-height: 48.4px;
+    text-align: center;
+}
+/* section1 boxes */
+.section1-boxes {
+    width: 1220px;
+    height: 383px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+}
+.box1 {
+    width: 386px;
+    height: 383px;
+    display: inline-block;
+    background-color: #F4F4F4;
+    position: relative;
+    margin-right: 31px;
+}
+.title-in-box{
+    font-family: 'Poppins-semiBold';
+    font-size: 25px;
+    line-height: 31.75px;
+    width: 245px;
+    height: 32px;
+    text-align: center;
+    position: absolute;
+    top: 58px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: inline-block;
+}
+.text-in-box {
+    font-family: 'Inter-ExtraLight';
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 26.31px;
+    width: 300px;
+    height: 78px;
+    text-align: center;
+    position: absolute;
+    top: 106px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}
+.title2-in-box {
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #6B77E5;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 221px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}
+.icon-bottom {
+    width: 72px;
+    position: absolute;
+    bottom:58px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.box2 {
+    width: 386px;
+    height: 383px;
+    display: inline-block;
+    background-color: #F4F4F4;
+    position: relative;
+    margin-right: 31px;
+}
+
+.box3 {
+    width: 386px;
+    height: 383px;
+    display: inline-block;
+    position: relative;
+    background-color: #F4F4F4;
+}
+/* section2 texts on image  */
+.image {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 130px;
+}
+.image-hw {
+    position: relative;
+}
+.text-box {
+    width: 511px;
+    height: 270.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title-text-box {
+    width: 102;
+    height: 22px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: center;
+}
+.title2-text-box {
+    font-family: 'Poppins';
+    font-size: 40px;
+    line-height: 48.4px;
+    height: 48.4px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 21px;
+}
+.text-text-box {
+    font-family: 'Inter-ExtraLight';
+    font-size: 18px;
+    line-height: 26.31px;
+    text-align: center;
+    margin-bottom: 47px;
+}
+.image-buttom {
+    width: 65px;
+    height: 65px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+/* section 3 title with photos */
+.conteiner {
+    margin-bottom: 131px;
+    width: 1220px;
+    height: 659px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-1st {
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.title-2nd {
+    font-family: 'Poppins';
+    font-size: 40px;
+    line-height: 48.4px;
+    text-align: center;
+}
+/* photos div*/
+.block-on-conteiner {
+    width: 1220px;
+    height: 532px;
+    margin-top: 41px;
+}
+.photo {
+    margin-right: 31px;
+}
+.box-photo {
+    width: 386px;
+    height: 532px;
+    display: inline-block;
+    position: relative;
+    
+}
+.block-on-photo{
+    width: 341px;
+    height: 114px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+}
+.name{
+    font-family: 'Poppins-semiBold';
+    font-size: 25px;
+    line-height: 37.5px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+.position{
+    font-family: 'Inter-ExtraLight';
+    font-size: 18px;
+    line-height: 24.33px;
+    color: #7D7D7D;
+    text-align: center;
+}
